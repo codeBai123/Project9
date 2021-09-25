@@ -8,7 +8,7 @@ class Test_01:
         allure.attach("111", "222")
         assert 1
 
-    @allure.issue('http://www.163.com')
+    @allure.issue('http://www.163.com/ll')
     @allure.testcase('http://www.baidu.com/test_02')
     @allure.severity(allure.severity_level.TRIVIAL)
     def test_02(self):
